@@ -5,7 +5,7 @@ const slideshow = document.getElementById("slideshow");
 const audio = document.getElementById("audio");
 
 const imagens = [
-    "img1.jpg",
+    "b569450ad1dd2be83611da4b433bc2dc.jpg",
     "img2.jpg",
     "img3.webp",
     "img4.jpg"
