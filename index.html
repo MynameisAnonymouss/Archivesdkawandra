@@ -1,62 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Acesso</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso</title>
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<div id="inicio">
+    <div id="tela1">
+        <button id="startBtn">CLIQUE AQUI</button>
+    </div>
 
-<h1 class="titulo">ACESSO RESTRITO</h1>
+    <div id="contador" style="display:none;">
+        <h1 id="numero">5</h1>
+    </div>
 
-<button id="btn">
-CLIQUE AQUI
-</button>
+    <div id="status" style="display:none;"></div>
 
-</div>
+    <img id="slideshow" src="" style="display:none;">
 
-<div id="contador">
+    <audio id="audio" loop>
+        <source src="suspense.mp3" type="audio/mpeg">
+    </audio>
 
-<h1 id="numero">5</h1>
-
-</div>
-
-<div id="galeria">
-
-<h1 class="texto">FOTOS VISUALIZADAS</h1>
-
-<img src="1.jpg" class="foto">
-<img src="2.jpg" class="foto">
-<img src="3.jpg" class="foto">
-<img src="4.webp" class="foto">
-
-</div>
-
-<div id="fim">
-
-<h1 id="erro">
-SISTEMA<br>
-CORROMPIDO
-</h1>
-
-<p class="sub">
-ERRO CRÍTICO<br>
-DADOS COMPROMETIDOS
-</p>
-
-</div>
-
-<audio id="musica" loop>
-<source src="suspense.mp3" type="audio/mpeg">
-</audio>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
