@@ -1,5 +1,5 @@
 const startBtn = document.getElementById("startBtn");
-const countdown = document.getElementById("countdown");
+const countdown = document.getElementById("contador");
 const status = document.getElementById("status");
 const slideshow = document.getElementById("slideshow");
 const audio = document.getElementById("audio");
