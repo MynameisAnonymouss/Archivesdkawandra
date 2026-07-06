@@ -1,1 +1,55 @@
 
+body{
+    margin:0;
+    background:#000;
+    color:#fff;
+    font-family:Arial;
+    overflow:hidden;
+}
+
+#tela1,#contador{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+button{
+    padding:20px 50px;
+    font-size:30px;
+    background:red;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+}
+
+#numero{
+    font-size:120px;
+}
+
+.galeria{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    padding:20px;
+}
+
+.galeria img{
+    width:100%;
+    border:3px solid red;
+    animation:glitch .15s infinite;
+}
+
+.glitch,.glitch2{
+    text-align:center;
+    animation:glitch .12s infinite;
+}
+
+@keyframes glitch{
+    0%{transform:translate(2px,-2px);}
+    25%{transform:translate(-3px,2px);}
+    50%{transform:translate(3px,1px);}
+    75%{transform:translate(-2px,-3px);}
+    100%{transform:translate(0);}
+}
