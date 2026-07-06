@@ -95,35 +95,3 @@ function iniciarGlitch(){
     },150);
 
 }
-body{
-    transition:.05s;
-    overflow:hidden;
-}
-
-#slideshow{
-    width:100%;
-    height:100vh;
-    object-fit:cover;
-}
-
-#status{
-    position:absolute;
-    top:20px;
-    width:100%;
-    text-align:center;
-    color:red;
-    font-family:monospace;
-    text-shadow:0 0 20px red;
-    animation:piscar .2s infinite;
-}
-
-@keyframes piscar{
-
-    0%{opacity:1;}
-
-    50%{opacity:0;}
-
-    100%{opacity:1;}
-
-  }
-  
