@@ -6,9 +6,9 @@ const audio = document.getElementById("audio");
 
 const imagens = [
     "b569450ad1dd2be83611da4b433bc2dc.jpg",
-    "img2.jpg",
-    "img3.webp",
-    "img4.jpg"
+    "images.jpeg",
+    "leopoldo-izquierdo-lala.webp",
+    
 ];
 
 console.log("Script carregado");
