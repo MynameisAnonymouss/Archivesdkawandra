@@ -11,8 +11,8 @@ const imagens = [
     "img4.jpg"
 ];
 
+console.log("Script carregado");
 startBtn.addEventListener("click", () => {
-
     startBtn.style.display = "none";
 
     let tempo = 5;
